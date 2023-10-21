@@ -1,0 +1,82 @@
+<!DOCTYPE html> <!-- it is used to tell browser the version of html we are using, currently its html 5-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- we are telling the browser that our webpage can be encoded using utf-8 system, basically a list of all the characters we can use inside our website for it to be rendered correctly. we sometimes see jumbled up words in a website, it is called mojibake which means characters that are transformed, it is because our browser is trying to render the characters using wrong character set, every encoding system has different symbols in different positions, utf-8 is very similar to unicode that we use generally -->
+    <title>Kanishka's Personal Site</title>
+    <link rel="stylesheet" href="E:\Web Development\CSS\style.css">
+
+    <!-- INTERNAL CSS -->
+    <style>
+        body {
+            background-color: cyan;
+        }
+
+        hr {
+            background-color: none;
+            border-style: dotted none none;
+            height: 0px;
+            width: 5%;
+            border-color: grey;
+            border-width: 5px;
+        }
+    </style>
+    <!-- you can specify width in percentage as well so as to provide responsiveness and get adjustment according to the screen size-->
+</head>
+
+<body>
+    <!-- <body style="background-color: #A2D2FF;">   INLINE CSS -->
+    <!-- <img src="download.jfif"> -->
+    <!-- <img src="C:\Users\Kanis\Downloads\program 2.png"> -->
+    <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/rose-729509__340.jpg" alt="kanishka's profile picture">
+    <h1>Kanishka Mittal</h1>
+    <p><em>Student at <a href="https://www.uietkuk.ac.in/">UIET Kurukshetra</a></em></p>
+    <!-- <em> tag is same as <i> but it should be used more due to the fact that it is used to emphasize rather than just italacise, same is in the case of bold, <strong> should be used instead of bold <b>, here a tag is used for putting into links and is called anchor tag -->
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam autem architecto nam aliquid, debitis
+        doloremque quod temporibus vel aliquam impedit, voluptas incidunt? Voluptatem laboriosam voluptate pariatur
+        magni nihil officiis dicta!</p>
+    <hr>
+    <h3>Schools</h3>
+    <ul>
+        <li>Kids Play School</li>
+        <li>St. Mary's Convent School</li>
+        <li>S.D. Public School</li>
+    </ul>
+    <h3>Things i wanna learn</h3>
+    <ol type="1">
+        <li>Guitar <a href="https://en.wikipedia.org/wiki/Guitar">here</a></li>
+        <li>Sketching <a href="https://www.creativebloq.com/illustration/sketching-tips-beginners-81516497">here</a>
+        </li>
+        <li>Car <a href="https://www.carwale.com/new-cars/">here</a></li>
+    </ol>
+    <h3> Schools </h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Duration</th>
+                <th>Name of the school</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2006-2012</td>
+                <td>Kids Play School</td>
+            </tr>
+            <tr>
+                <td>2012-1019</td>
+                <td>St. Mary's Convent School</td>
+            </tr>
+            <tr>
+                <td>2019-2021</td>
+                <td>S.D. Public School</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <a href="E:\Web Development\4.contactme.html">contact me</a>
+</body>
+
+</html>
